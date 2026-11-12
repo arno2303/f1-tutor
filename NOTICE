@@ -1,0 +1,28 @@
+F1 Tutor
+Copyright (c) 2026 Lukas Vavro. Released under the MIT License (see LICENSE).
+
+This project includes data from other projects:
+
+Real-driver telemetry and track outlines
+  Files:   frontend/public/reference/ and frontend/src/data/tracks.json
+  Source:  TracingInsights 2025 archive, https://github.com/TracingInsights/2025
+           (doi:10.5281/zenodo.17312803), exported with FastF1
+           (https://github.com/theOehrly/Fast-F1, MIT License).
+  License: Apache License 2.0, a copy is in frontend/public/reference/LICENSE.
+  Changes: only each driver's fastest 2025 qualifying lap is kept, reduced to
+           distance, time, speed, throttle, brake, gear and position,
+           converted to metres and rounded. Track outlines are resampled to
+           8 m spacing. Built by tools/build_reference.py and
+           tools/build_tracks.py.
+
+Game packet captures for tests
+  Files:   tests/data/*.bin
+  Source:  https://github.com/mini-sector/f1-packets (formerly
+           11bthornton/f1-game-library-models)
+  License: MIT License, Copyright 2025 Ben-Lukas Thornton, see tests/data/LICENSE.
+
+Trademarks
+  F1, FORMULA 1, FORMULA ONE and related marks are trademarks of Formula One
+  Licensing B.V. EA SPORTS F1 25 is a trademark of Electronic Arts Inc.
+  F1 Tutor is an unofficial fan project. It is not associated with, endorsed
+  by or connected to Formula 1, the FIA, Electronic Arts or Codemasters.

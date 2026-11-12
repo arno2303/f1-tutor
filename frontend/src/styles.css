@@ -1,0 +1,79 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0e13;
+  --card: #151a23;
+  --card-raised: #1c2330;
+  --hairline: #262e3b;
+  /* Borders of inputs, selects and buttons: 3:1 against every background (WCAG 1.4.11). */
+  --control-border: #636e80;
+  --text: #e8ecf2;
+  --text-2: #a7b0be;
+  --text-3: #8791a1;
+  /* Chart series: validated together on --card (dataviz validate_palette, dark mode). */
+  --you: #e8650a;
+  --ref: #2e9fd9;
+  --best: #8e6bd6;
+  --throttle: #3ddc84;
+  --brake: #ff3b47;
+  --warn: #ffb020;
+  --bad-text: #ff5a64;
+  /* The whole UI is sized in rem and 16px rem equals a 1920x1080 window, so it
+     scales as one piece to any fullscreen resolution. */
+  font-size: max(9px, min(0.8333vw, 1.4815vh));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+body {
+  color: var(--text);
+  font-family: 'Inter Variable', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Live values change many times a second, so they keep fixed-width digits to
+   stop the number from jittering sideways. */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  min-width: 0;
+  min-height: 0;
+  background: var(--card);
+  border-radius: 0.75rem;
+}
+
+.label {
+  color: var(--text-3);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.card-title {
+  color: var(--text-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}

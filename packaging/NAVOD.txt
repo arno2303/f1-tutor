@@ -1,0 +1,39 @@
+F1 Tutor – návod pre Windows
+============================
+
+1. Spustenie
+   Dvakrát klikni na F1Tutor.exe. Otvorí sa čierne okno a po chvíli prehliadač
+   s aplikáciou. Čierne okno nechaj otvorené počas jazdy, jeho zatvorením
+   aplikáciu ukončíš. Slovenčinu zapneš vpravo hore (English / Slovenčina).
+
+2. Prvé spustenie: upozornenie Windows
+   Windows môže zobraziť „Windows ochránil váš počítač“. Klikni na
+   „Ďalšie informácie“ a potom „Spustiť aj tak“. Je to preto, že aplikácia
+   nie je podpísaná plateným certifikátom.
+
+3. Prvé spustenie: brána firewall
+   Ak sa objaví okno „Brána Windows Defender Firewall“, zaškrtni
+   „Súkromné siete“ a klikni „Povoliť prístup“. Bez toho dáta z hry neprídu.
+
+4. Nastavenie v hre (Nastavenia → Telemetria)
+   UDP Telemetry: On
+   UDP Broadcast Mode: Off
+   UDP IP Address: adresa, ktorú vypíše čierne okno
+   UDP Port: 20777
+   UDP Send Rate: 60 Hz
+   UDP Format: 2025
+   Počítač a konzola musia byť v tej istej domácej sieti.
+
+5. Hlas
+   V paneli „Real driver“ / „Reálny jazdec“ klikni na „Turn on voice“ / „Zapnúť hlas“. Treba to urobiť po každom
+   otvorení stránky. Pokyny hovorí hlas systému Windows v jazyku aplikácie.
+
+6. Uložené jazdy
+   Ukladajú sa do priečinka F1Tutor-data vedľa F1Tutor.exe. Ak presunieš
+   F1Tutor.exe inam, presuň aj tento priečinok. Na zálohu stačí ho skopírovať.
+
+7. Vlastný hlas
+   Vytvor vedľa F1Tutor.exe priečinok „voice“ so súbormi Brzda.m4a, Zaboc.m4a
+   a Plyn.m4a a aplikáciu spusti znova. Prehrá ich namiesto hovorených slov.
+
+Ak niečo nefunguje, odfoť čierne okno a horný panel aplikácie.

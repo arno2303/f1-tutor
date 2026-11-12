@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+node_modules/
+frontend/dist/
+/data/
+.DS_Store
+/build/
+dist-windows/
+dist-mac/
+.claude/
+*.db
+# Your own voice recordings stay on your machine; see voice/README.md.
+voice/*.m4a

@@ -1,0 +1,40 @@
+F1 Tutor – Windows guide
+========================
+
+1. Starting
+   Double-click F1Tutor.exe. A black window opens, then your browser with the
+   app. Keep the black window open while driving; closing it stops the app.
+   The language can be switched in the top right corner (English / Slovenčina).
+
+2. First start: Windows warning
+   Windows may show "Windows protected your PC". Click "More info", then
+   "Run anyway". It appears because the app isn't signed with a paid certificate.
+
+3. First start: firewall
+   If a "Windows Defender Firewall" window appears, tick "Private networks"
+   and click "Allow access". Without it, no data arrives from the game.
+
+4. Game settings (Settings → Telemetry)
+   UDP Telemetry: On
+   UDP Broadcast Mode: Off
+   UDP IP Address: the address shown in the black window
+   UDP Port: 20777
+   UDP Send Rate: 60 Hz
+   UDP Format: 2025
+   The computer and the console must be on the same home network.
+
+5. Voice
+   In the "Real driver" panel, click "Turn on voice". It's needed each time the
+   page is opened. The cues are spoken by the Windows voice in the app's
+   language.
+
+6. Saved drives
+   They're stored in the F1Tutor-data folder next to F1Tutor.exe. If you move
+   F1Tutor.exe, move that folder too. To back them up, copy the folder.
+
+7. Your own voice
+   Make a folder called "voice" next to F1Tutor.exe with the files Brzda.m4a
+   (brake), Zaboc.m4a (turn) and Plyn.m4a (throttle), then restart the app.
+   It plays them in place of the spoken words.
+
+If something doesn't work, take a photo of the black window and the app's top bar.
